@@ -1,0 +1,41 @@
+{
+  "name": "sublog-cli",
+  "version": "1.0.0",
+  "description": "Personal practice for creating cli",
+  "main": "index.js",
+  "bin": {
+    "sub": "./bin/www.js"
+  },
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corder-Su/sublog-cli.git"
+  },
+  "author": "Coder-Su",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Corder-Su/sublog-cli/issues"
+  },
+  "homepage": "https://github.com/Corder-Su/sublog-cli#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "art-template": "^4.13.2",
+    "chalk": "^5.0.1",
+    "child_process": "^1.0.2",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "fontmin": "^0.9.9",
+    "fs": "^0.0.1-security",
+    "ini": "^3.0.0",
+    "inquirer": "^8.2.4",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}
